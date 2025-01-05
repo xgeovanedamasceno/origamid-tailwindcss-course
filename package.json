@@ -1,0 +1,12 @@
+{
+  "name": "origamid-tailwindcss-course",
+  "version": "1.0.0",
+  "description": "TailwindCSS training by Origamid",
+  "license": "MIT",
+  "author": "Geovane Damasceno <xgeovanedamasceno@outlook.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
