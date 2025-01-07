@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "policy": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process",
-    "pushg": "git push origin main"
+    "pushg": "git push origin main",
+    "tailw": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
