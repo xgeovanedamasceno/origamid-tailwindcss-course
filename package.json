@@ -10,5 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "policy": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process",
     "pushg": "git push origin main"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
