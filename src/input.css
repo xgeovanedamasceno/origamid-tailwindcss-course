@@ -1,0 +1,4 @@
+/* indicando que este arquivo deve carregar os elementos básicos do tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
