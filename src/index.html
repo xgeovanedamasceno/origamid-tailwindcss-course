@@ -8,12 +8,12 @@
   </head>
   <body class="">
     <div class="container">
-      <header class="grid grid-cols-3 grid-rows-2 bg-orange-900">
-        <p class="col-span-full bg-slate-300">
+      <header class="grid grid-cols-3 grid-rows-2 bg-orange-900/80">
+        <p class="col-span-full bg-slate-300/80">
           Sábado <span>24º </span><span>29%</span>
         </p>
-        <h1 class="col-span-2 bg-slate-400">Forest</h1>
-        <nav class="bg-slate-500 justify-items-end">
+        <h1 class="col-span-2 bg-slate-400/80">Forest</h1>
+        <nav class="bg-slate-500/80 justify-items-end">
           <ul class="*:inline-block">
             <li>Acomodações</li>
             <li>Experiências</li>
@@ -22,13 +22,44 @@
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="relative">
         <img src="./img/floresta.jpg" alt="" />
-        <h2>Venha experimentar a vida na floresta</h2>
-        <p>vagas para dezembro abertas <a href="/">Reservar Hoje ></a></p>
-        <p>Melhores locais para visitar <a href="/">2049</a></p>
-        <p>recomendado por Wildbeast | Revista Nacional</p>
+        <div
+          class="grid grid-cols-3 absolute top-1/2 grid-rows-3 *:text-white *:text-2xl"
+        >
+          <h2 class="col-span-full">Venha experimentar a vida na floresta</h2>
+          <p class="col-span-full">
+            vagas para dezembro abertas <a href="/">Reservar Hoje ></a>
+          </p>
+          <p class="col-span-2 mt-10">
+            Melhores locais para visitar <a href="/">2049</a>
+          </p>
+          <p class="text-right mt-10">
+            recomendado por <span> Wildbeast </span> | Revista Nacional
+          </p>
+        </div>
       </main>
+      <section class="grid grid-cols-3 grid-row-2 gap-8">
+        <div class="bg-green-900 row-span-2">
+          <h2>Refúgio Natural</h2>
+          <ul>
+            <li>Experimente a natureza de perto</li>
+            <li>Trilhas ecológicas</li>
+            <li>Atividades ao ar livre</li>
+            <li>Desconecte-se do digital</li>
+            <li>Escolha a sua cabine preferida</li>
+          </ul>
+        </div>
+        <img
+          src="./img/casa1.jpg"
+          alt=""
+          class="col-span-2 w-[843px] h-[202px]"
+        />
+        <img src="./img/casa2.jpg" alt="" class="col-start-2" />
+        <img src="./img/casa3.jpg" alt="" class="col-start-3" />
+      </section>
+      <p>teste</p>
+      <p>teste</p>
     </div>
   </body>
 </html>
