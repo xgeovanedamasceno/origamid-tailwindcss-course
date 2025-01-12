@@ -634,6 +634,10 @@ video {
   grid-column-start: 4;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .row-start-1 {
   grid-row-start: 1;
 }
@@ -896,6 +900,10 @@ video {
   flex-direction: column;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .content-end {
   align-content: flex-end;
 }
@@ -934,6 +942,10 @@ video {
 
 .place-self-center {
   place-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
@@ -1112,6 +1124,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-left-bottom {
