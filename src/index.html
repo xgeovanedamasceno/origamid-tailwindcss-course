@@ -6,40 +6,37 @@
     <title>TailwindCSS Course - Forest Project</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body class="bg-[#16281F] pt-8">
+  <body class="bg-verde-800 pt-8">
     <div class="container">
       <header class="grid grid-cols-4 grid-rows-2 gap-6 mb-7 relative">
-        <span class="w-2 h-2 mt-2 rounded-full bg-lime-400 border-white border-1 absolute"></span>
-        <p class="col-span-full text-[#89E271] *:p-2 *:bg-[#0F1C15] *:mx-1 *:rounded-md">
+        <span class="w-2 h-2 mt-2 rounded-full bg-verde-400 border-white border-1 absolute"></span>
+        <p class="col-span-full text-verde-200 *:p-2 *:bg-verde-900 *:mx-1 *:rounded-md">
           
           <span> Sábado </span><span>24º </span><span>29%</span>
         </p>
         <h1 class="col-span-2 text-white font-serif text-5xl ">Forest</h1>
         <nav class="col-span-2 self-center justify-items-end">
           <ul class="*:inline-flex *:text-white *:text-xl *:mx-3">
-            <li class="hover:border-b-2 pb-3">Acomodações</li>
-            <li class="hover:border-b-2 pb-3">Experiências</li>
-            <li class="hover:border-b-2 pb-3">Eventos</li>
-            <li class="hover:border-b-2 pb-3 mr-0">Contatos</li>
+            <li class="hover:border-b-2">Acomodações</li>
+            <li class="hover:border-b-2">Experiências</li>
+            <li class="hover:border-b-2">Eventos</li>
+            <li class="hover:border-b-2 mr-0">Contatos</li>
           </ul>
         </nav>
       </header>
-      <main class="relative">
-        <img src="./img/floresta.jpg" alt="" />
-        <div
-          class="grid grid-cols-3 absolute top-1/2 grid-rows-3 *:text-white *:text-2xl"
-        >
-          <h2 class="col-span-full">Venha experimentar a vida na floresta</h2>
-          <p class="col-span-full">
-            vagas para dezembro abertas <a href="/">Reservar Hoje ></a>
+      <main class="relative *:text-white mb-10">
+        <img src="./img/floresta.jpg" alt="" class="rounded-2xl"/>
+        <p class="absolute -mt-[425px] left-8 bg-black rounded-full w-max h-max py-3 pr-1 pl-4 text-xl">
+          vagas para dezembro abertas <a href="/" class="bg-gradient-to-b from-verde-200 via-verde-300 to-verde-400 rounded-full p-2 px-4 ml-8 text-gray-900 text-lg">Reservar Hoje ></a>
+        </p>
+          <h2 class="absolute -mt-[325px] left-8 w-[600px] text-balance font-serif font-bold text-5xl ">Venha experimentar a vida na floresta</h2>
+        
+          <p class="absolute -mt-[50px] left-8 ">
+            Melhores locais para visitar <a href="/" class="underline decoration-2"">2049</a>
           </p>
-          <p class="col-span-2 mt-10">
-            Melhores locais para visitar <a href="/">2049</a>
+          <p class="absolute -mt-[50px] right-8 w-100px">
+            <span class="uppercase absolute -mt-5">recomendado por</span> <span class="text-2xl text-verde-300 italic"> Wildbeast </span> | Revista Nacional
           </p>
-          <p class="text-right mt-10">
-            recomendado por <span> Wildbeast </span> | Revista Nacional
-          </p>
-        </div>
       </main>
       <section class="grid grid-cols-3 grid-row-2 gap-8">
         <div class="bg-green-900 row-span-2">
