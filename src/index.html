@@ -137,7 +137,7 @@
           class="col-start-4 row-start-1"
         />
       </section>
-      <section class=" my-16 h-[525px]">
+      <section class="mt-16 py-4 h-[525px] border-2 border-white">
         <div class="container bg-[url(./img/padrao.svg) ">
         <h3 class="text-[16px] uppercase text-center tracking-widest text-verde-200 ]">Ciclo Natural</h3>
         <h2 class="mt-6 mb-10 text-6xl text-white font-serif font-bold text-center tracking-wider ">Ritmo da Floresta</h2>
@@ -169,10 +169,36 @@
         </div>
         </div>
       </section>
-      <section class="my-16 h-[625px]">
-        <div class="container">
-          <h2>Nossos Contatos</h2>
-          <p>Tem interesse em passar uma temporada na Forest? Entre em contato com a gente por telefone ou email.</p>
+      <section class=" py-8 h-[625px] border-2 border-pink-400">
+        <div class="container grid grid-cols-2 gap-4">
+          <div>
+            <h2 class="text-verde-300 font-serif text-3xl font-semibold mb-4">Nossos Contatos</h2>
+            <p class="text-[#9CA38D] text-balance">Tem interesse em passar uma temporada na Forest? Entre em contato com a gente por telefone ou email.</p>
+            <h6>Base</h6>
+            <p>Rua da Mata, 123 - Floresta Nacional - RJ</p>
+            <h6>Email</h6>
+            <p>contato@forest.com</p>
+            <h6>Telefone</h6>
+            <p>+55 21 1234-5678</p>
+          </div>
+          <form action="" 
+          class="grid grid-cols-2 grid-rows-4 grid-flow-col gap-4 p-6 bg-verde-900 rounded-lg *:text-white *:block *:border-2 *:border-orange-600">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+          </div>
+          <div>
+            <label for="message">Mensagem</label>
+            <input type="text" id="message" name="message" />
+          </div>
+            <button class="bg-verde-200">Enviar Email</button>
+          </form>
+          
+
 
         </div>
 
