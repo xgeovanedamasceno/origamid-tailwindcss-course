@@ -137,7 +137,7 @@
           class="col-start-4 row-start-1"
         />
       </section>
-      <section class="mt-16 py-4 h-[525px] border-2 border-white">
+      <section class="mt-16 py-4 h-[525px] ">
         <div class="container bg-[url(./img/padrao.svg) ">
         <h3 class="text-[16px] uppercase text-center tracking-widest text-verde-200 ]">Ciclo Natural</h3>
         <h2 class="mt-6 mb-10 text-6xl text-white font-serif font-bold text-center tracking-wider ">Ritmo da Floresta</h2>
@@ -145,7 +145,7 @@
           <section class="*:mb-4 relative">
             <img src="./img/manha.svg" alt="" class="bg-gradient-to-b from-verde-200 to-verde-400 rounded-full p-2 mb-4">
             <h3 class="text-3xl text-white font-serif font-bold tracking-wider">Amanhecer</h3>
-            <p class="text-[#9CA38D]">
+            <p class="text-[#e5ebd8]">
               Desperte com o canto dos pássaros e participe das nossas caminhadas
               ao ar livre.
             </p>
@@ -154,7 +154,7 @@
           <section class="*:mb-4 relative top-10 ">
             <img src="./img/dia.svg" alt="" class="bg-gradient-to-b from-verde-200 to-verde-400 rounded-full p-2">
             <h3 class="text-3xl text-white font-serif font-bold tracking-wider">Meio dia</h3>
-            <p class="text-[#9CA38D]">
+            <p class="text-[#e5ebd8]">
               Aproveite o sol e a brisa fresca enquanto almoça em nossos
               restaurantes ao ar livre.
             </p>
@@ -163,47 +163,53 @@
           <section class="*:mb-4">
             <img src="./img/noite.svg" alt="" class="bg-gradient-to-b from-verde-200 to-verde-400 rounded-full p-2 mb-4"/>
             <h3 class="text-3xl text-white font-serif font-bold tracking-wider mb-4">Anoitecer</h3>
-            <p class="text-[#9CA38D]">Relaxe com um jantar ao ar livre e aproveite a noite estrelada.</p>
+            <p class="text-[#e5ebd8]">Relaxe com um jantar ao ar livre e aproveite a noite estrelada.</p>
             <p class="text-verde-300">19:00 - 21:00</p>
           </section>         
         </div>
         </div>
       </section>
-      <section class=" py-8 h-[625px] border-2 border-pink-400">
+      <section class=" py-8 h-[625px] ">
         <div class="container grid grid-cols-2 gap-4">
           <div>
             <h2 class="text-verde-300 font-serif text-3xl font-semibold mb-4">Nossos Contatos</h2>
-            <p class="text-[#9CA38D] text-balance">Tem interesse em passar uma temporada na Forest? Entre em contato com a gente por telefone ou email.</p>
-            <h6>Base</h6>
-            <p>Rua da Mata, 123 - Floresta Nacional - RJ</p>
-            <h6>Email</h6>
-            <p>contato@forest.com</p>
-            <h6>Telefone</h6>
-            <p>+55 21 1234-5678</p>
+            <p class="text-[#e5ebd8] text-balance mb-8">Tem interesse em passar uma temporada na Forest? Entre em contato com a gente por telefone ou email.</p>
+            <div class="w-6 h-[2px]  bg-verde-200 inline-block mr-3 "></div>
+            <h6 class="text-verde-200 text-3xl font-serif">Base</h6>
+            <p class="text-[#e5ebd8] mb-8">Rua da Mata, 123 - Floresta Nacional - RJ</p>
+            <div class="w-6 h-[2px]  bg-verde-200 inline-block mr-3 "></div>
+            <h6 class="text-verde-200 text-3xl font-serif">Email</h6>
+            <p class="text-[#e5ebd8] mb-8">contato@forest.com</p>
+            <div class="w-6 h-[2px]  bg-verde-200 inline-block mr-3 "></div>
+            <h6 class="text-verde-200 text-3xl font-serif">Telefone</h6>
+            <p class="text-[#e5ebd8] mb-8">+55 21 1234-5678</p>
           </div>
           <form action="" 
-          class="grid grid-cols-2 grid-rows-4 grid-flow-col gap-4 p-6 bg-verde-900 rounded-lg *:text-white *:block *:border-2 *:border-orange-600">
-          <div>
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" />
+          class="grid grid-cols-2 grid-flow-row gap-4 p-8 bg-verde-900 rounded-lg *:text-white ">
+          <div class="col-span-2 *:block ">
+            <label for="name" class="mb-1">Nome</label>
+            <input type="text" id="name" name="name" class="bg-verde-800 rounded-lg p-2 w-[100%]"/>
           </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" />
+          <div class="*:block" >
+            <label for="email" class="mb-1">Email</label>
+            <input type="text" id="email" name="email" class="bg-verde-800 rounded-lg p-4 w-[100%]" />
           </div>
-          <div>
-            <label for="message">Mensagem</label>
-            <input type="text" id="message" name="message" />
+          <div class="*:block row-start-2 col-start-2">
+            <label for="email" class="mb-1">Telefone</label>
+            <input type="text" id="telefone" name="telefone" class="bg-verde-800 rounded-lg p-4 w-[100%]" />
           </div>
-            <button class="bg-verde-200">Enviar Email</button>
+          <div class="*:block col-span-2">
+            <label for="message " class="mb-1">Mensagem</label>
+            <input type="text" id="message" name="message" class="bg-verde-800 rounded-lg p-4 w-[100%] h-[128px]" />
+          </div class="*:block" >
+            <button class="rounded-full bg-gradient-to-b from-verde-200 to-verde-400 w-2/4 py-2 text-verde-950 ">Enviar Email</button>
           </form>
           
 
 
-        </div>
 
       </section>
   
-    <div class="bg-[url(./img/padrao.svg)]">ttttttttttttttttttttttttttttttttttttttttttttt</div>
+    </div>
   </body>
 </html>
